@@ -95,19 +95,33 @@ fruits = tuple(listed_fruits)
 
 subjects = ("Math1", "Math2", "Algebra", "Geometry", "Algebra2", "Trigonometry")
 
-print(subjects)
+# print(subjects)
 
-subject = ("Calculus",)
+# subject = ("Calculus",)
 
-subjects += subject
+# subjects += subject
 
-print(subjects)
+# print(subjects)
 
 
 
 
 #__________________________________________________________________________________________________________________
 # Loop
+
+# for subject in subjects: # 'subject' in this loop is only a variable to reference in the loop
+#     print(subject)
+
+
+# for math in range(len(subjects)):
+#     print(subjects[math])
+
+
+chosen = 0
+
+# while chosen < len(subjects):
+#     print(subjects[chosen])
+#     chosen += 1
 
 
 
