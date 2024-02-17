@@ -68,8 +68,6 @@ sec_tuple = ("Florida", "Games", "13", "65", "124", "7")
 # num_list = sec_tuple[2:] # assigns as tuple
 
 
-
-
 #__________________________________________________________________________________________________________________
 # Update
 
@@ -93,7 +91,7 @@ fruits = tuple(listed_fruits)
 
 #-------------------------------------------
 
-subjects = ("Math1", "Math2", "Algebra", "Geometry", "Algebra2", "Trigonometry")
+subjects = ("Math", "Math", "Algebra", "Geometry", "Algebra", "Trigonometry")
 
 # print(subjects)
 
@@ -103,7 +101,9 @@ subjects = ("Math1", "Math2", "Algebra", "Geometry", "Algebra2", "Trigonometry")
 
 # print(subjects)
 
-
+# Check for duplicates
+# print(subjects.count("Math"))
+# print(subjects.count("Algebra"))
 
 
 #__________________________________________________________________________________________________________________
@@ -124,13 +124,23 @@ chosen = 0
 #     chosen += 1
 
 
-
-
-
-
-
 #__________________________________________________________________________________________________________________
-# Tuples
+# Joining Tuples
 
 
+digits = (1, 2, 3, 4)
+
+names = ("Jake", "Tiffany", "William", "Bob")
+
+# print (digits)
+
+# print(names)
+
+together = digits + names
+
+# print(together)
+
+digits_again = digits * 2
+
+# print(digits_again)
 
